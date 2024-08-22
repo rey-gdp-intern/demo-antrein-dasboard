@@ -19,3 +19,5 @@ spec:
   type: service
   owner: group:sre
   lifecycle: experimental
+  dependsOn:
+    - resource:default/demo-antrein-be-dashboard
